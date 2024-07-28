@@ -2,12 +2,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const canvas = document.getElementById('background');
     const context = canvas.getContext('2d');
 
+    // CONFIG: ///////////////////
     const pointCount = 100;
     const maxDistance = 175;
     const repulsionDistance = 110;
     const maxSpeed = 2;
     const speed = 1;
-
+    ///////////////////////////////
+    
     let mouseX = -100; 
     let mouseY = -100;
 
